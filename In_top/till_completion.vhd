@@ -31,6 +31,9 @@ use IEEE.NUMERIC_STD.ALL;
 --library UNISIM;
 --use UNISIM.VComponents.all;
 
+-- Things to add
+--     a way to give input(Either by BLE or a keypad pmod)
+-- other changes are memory size like address width, memory depth, respectively bram read and write adresss will change. try to parameterize the values so we can later change whn we want
 entity last_top is
 port (switch : in std_logic;
      
